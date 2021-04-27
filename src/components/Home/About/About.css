@@ -1,0 +1,23 @@
+.about-container {
+    background-image: linear-gradient(to top, #5045FE, #11BFFC);
+}
+
+.divider {
+    height: 1px;
+    width: 50%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #000000;
+}
+
+.divider2 {
+    height: 1px;
+    width: 75%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 10px auto;
+    overflow: hidden;
+    background-color: #000000;
+}
