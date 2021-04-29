@@ -9,7 +9,7 @@ import ParticlesContainer from '../../../ParticlesContainer/ParticlesContainer';
 import './Portfolio.css'
 const Portfolio = () => {
     return (
-            <div className='mt-5'
+            <div className='mt-5 container App'
                 style={{
                     position: "relative",
                     width: "100%",

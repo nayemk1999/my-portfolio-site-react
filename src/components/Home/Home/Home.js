@@ -1,6 +1,7 @@
 import React from 'react';
 import About from '../About/About';
 import Education from '../Education/Education';
+import Footer from '../Footer/Footer';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import Header from '../Header/Header';
 import Portfolio from '../Portfolio/Portfolio';
@@ -15,6 +16,7 @@ const Home = () => {
             <Portfolio></Portfolio>
             <Education></Education>
             <GetInTouch></GetInTouch>
+            <Footer></Footer>
         </div>
     );
 };

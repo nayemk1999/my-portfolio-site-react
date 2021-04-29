@@ -4,7 +4,7 @@ import { ProgressBar } from 'react-bootstrap';
 const Skill = () => {
     const now = 90
     return (
-        <div className='mt-5 text-shadow text-center text-uppercase container'>
+        <div className='mt-5 text-shadow text-center text-uppercase container App'>
             <h1>SKILLS</h1>
             <span className='divider'></span>
             <span className='divider2'></span>

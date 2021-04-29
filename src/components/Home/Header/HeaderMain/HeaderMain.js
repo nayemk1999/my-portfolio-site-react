@@ -2,7 +2,7 @@ import React from 'react';
 
 const HeaderMain = () => {
     return (
-        <div className='row align-items-center'>
+        <div className='row align-items-center App'>
             <div className="col-md-6">
                 <h4>HELLO, MY NAME IS</h4>
                 <h1>NAYEM KHAN</h1>

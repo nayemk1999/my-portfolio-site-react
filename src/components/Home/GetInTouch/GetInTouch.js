@@ -23,7 +23,7 @@ const GetInTouch = () => {
                         <input className="btn btn-success" value='Send Message' type="submit" />
                     </form>
                 </div>
-                <div className="col-md-6">
+                <div className="col-md-6 map">
                     <GoogleMaps></GoogleMaps>
                 </div>
             </div>
