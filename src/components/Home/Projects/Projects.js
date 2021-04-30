@@ -6,8 +6,8 @@ import {
     Link
 } from "react-router-dom";
 import ParticlesContainer from '../../../ParticlesContainer/ParticlesContainer';
-import './Portfolio.css'
-const Portfolio = () => {
+import './Projects.css'
+const Projects = () => {
     return (
             <div className='mt-5 container App'
                 style={{
@@ -24,13 +24,13 @@ const Portfolio = () => {
                         height: "100%"
                     }}
                 >
-                    <h1 className=' text-white text-center text-uppercase text-shadow'>Portfolio</h1>
+                    <h1 className=' text-white text-center text-uppercase text-shadow'>Projects</h1>
                     <span className='divider'></span>
                     <span className='divider2'></span>
-                    <button className="btn btn-success">Go To Portfolio</button>
+                    <Link to='/projects' className="btn btn-success">Go To Projects</Link>
                 </div>
             </div>
     );
 };
 
-export default Portfolio;
+export default Projects;

@@ -4,7 +4,7 @@ import Education from '../Education/Education';
 import Footer from '../Footer/Footer';
 import GetInTouch from '../GetInTouch/GetInTouch';
 import Header from '../Header/Header';
-import Portfolio from '../Portfolio/Portfolio';
+import Projects from '../Projects/Projects';
 import Skill from '../Skill/Skill';
 
 const Home = () => {
@@ -13,8 +13,8 @@ const Home = () => {
             <Header></Header>
             <About></About>
             <Skill></Skill>
-            <Portfolio></Portfolio>
-            <Education></Education>
+            <Projects/>
+            {/* <Education></Education> */}
             <GetInTouch></GetInTouch>
             <Footer></Footer>
         </div>

@@ -7,7 +7,10 @@ import {
 } from "react-router-dom";
 import './App.css';
 import AboutContainer from './components/AboutContainer/AboutContainer';
+import Blogs from './components/Blogs/Blogs';
+import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home/Home';
+import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer';
 
 function App() {
   return (
@@ -18,6 +21,15 @@ function App() {
         </Route>
         <Route path='/home'>
           <Home></Home>
+        </Route>
+        <Route path='/projects'>
+          <ProjectsContainer/>
+        </Route>
+        <Route path='/contact'>
+          <Contact/>
+        </Route>
+        <Route path='/blogs'>
+          <Blogs/>
         </Route>
         <Route path='/about-me'>
           <AboutContainer/>

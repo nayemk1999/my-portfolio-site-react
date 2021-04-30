@@ -15,8 +15,8 @@ const NavBar = () => {
                     <Nav className="ml-auto">
                         <Nav.Link ><Link to="/home">Home</Link></Nav.Link>
                         <Nav.Link ><Link to="/about-me">About Me</Link></Nav.Link>
-                        <Nav.Link ><Link to="/portfolio">Portfolio</Link></Nav.Link>
-                        <Nav.Link > <Link to="/blog">Blog</Link></Nav.Link>
+                        <Nav.Link ><Link to="/projects">Projects</Link></Nav.Link>
+                        <Nav.Link > <Link to="/blogs">Blogs</Link></Nav.Link>
                         <Nav.Link ><Link to="/contact">Contact</Link></Nav.Link>
                          
                         {/* <NavDropdown title="Dropdown" id="basic-nav-dropdown">
