@@ -7,7 +7,7 @@ const GetInTouch = () => {
     
     return (
         <div className='mt-5 container p-5'>
-            <h1 className=' text-white text-center text-uppercase text-shadow'>Get in touch</h1>
+            <h1 className='text-center text-uppercase text-shadow'>Get in touch</h1>
             <span className='divider'></span>
             <span className='divider2'></span>
             <div className="row align-items-center p-5">

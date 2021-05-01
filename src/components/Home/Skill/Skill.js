@@ -14,8 +14,8 @@ const Skill = () => {
   const ReactRedux = 60;
 
   return (
-    <div className="mt-5 text-shadow text-center text-uppercase container App">
-      <h1>SKILLS</h1>
+    <div className="mt-5 container">
+      <h1 className="text-center text-uppercase text-shadow">SKILLS</h1>
       <span className="divider"></span>
       <span className="divider2"></span>
       <div className="row align-items-center">

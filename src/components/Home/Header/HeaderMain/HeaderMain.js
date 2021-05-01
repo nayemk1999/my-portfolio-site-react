@@ -4,16 +4,16 @@ import "./HeaderMain.css";
 const HeaderMain = () => {
   return (
     <section className="container headerMain">
-      <div className="row align-items-center  text-center">
+      <div className="row align-items-center text-center">
         <div className="col-md-6">
-          <h4>HELLO, MY NAME IS</h4>
+          <h4 className="text-center text-uppercase text-shadow">HELLO, MY NAME IS</h4>
           <Typical
-            className="text-danger"
-            steps={["NAYEM KHAN", 1000, "", 500]}
+            className="text-danger typical"
+            steps={["", 500, "NAYEM KHAN", 1000]}
             loop={Infinity}
             wrapper="h1"
           />
-          <p>
+          <p className="text-center text-uppercase text-shadow">
             I am a Web Designer/Developer.A HTML,CSS,JavaScript, React & MongoDB
             expert.I always maintain a good relationships with my Team Member.
           </p>

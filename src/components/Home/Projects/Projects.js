@@ -22,7 +22,7 @@ const Projects = () => {
           height: "100%",
         }}
       >
-        <h1 className=" text-white text-center text-uppercase text-shadow">
+        <h1 className="text-center text-uppercase text-shadow">
           Projects
         </h1>
         <span className="divider"></span>

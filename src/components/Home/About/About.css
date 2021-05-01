@@ -1,6 +1,13 @@
 .about {
-    background-image: linear-gradient(to top, #5045FE, #11BFFC);
+    background-image: linear-gradient(to top, #d7f1da, #e7f8e8df);
     z-index: 2;
+}
+.about p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.about-content{
+    border-right: 2px solid black;
 }
 
 .divider {
