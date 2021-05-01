@@ -1,11 +1,9 @@
-.project-details{
-    /* border: 1px solid red; */
-    box-shadow:5px 7px 20px gray;
-    border-radius:10px
-
+.project-details {
+    box-shadow: 5px 7px 20px gray;
+    border-radius: 10px;
 }
-.carousel{
+
+.carousel {
     border: 1px solid gray;
-    border-radius:10px;
-    /* box-shadow: 7px 7px 15px  gray; */
+    border-radius: 10px;
 }

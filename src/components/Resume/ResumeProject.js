@@ -12,10 +12,10 @@ const ResumeProject = (props) => {
         <strong>➢ Resource:</strong> {resource}
       </p>
       <p>
-        <strong>➢ GitHub Link:</strong> <a href={github} target='_blank'>{github}</a>
+        <strong>➢ GitHub Link:</strong> <a rel="noreferrer" href={github} target='_blank'>{github}</a>
       </p>
       <p>
-        <strong>➢ Website Link:</strong> <a href={live} target='_blank'>{live}</a> 
+        <strong>➢ Website Link:</strong> <a rel="noreferrer" href={live} target='_blank'>{live}</a> 
       </p>
     </div>
   );

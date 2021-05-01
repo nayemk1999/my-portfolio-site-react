@@ -28,10 +28,10 @@ const Resume = () => {
             <span>Email:</span> nayemk900@gmail.com
           </h6>
           <h6>
-            <span>GitHub:</span> github.com/nayemk1999
+            <span>GitHub:</span> <a target='_blank' rel="noreferrer" href="https://github.com/nayemk1999">github.com/nayemk1999</a> 
           </h6>
           <h6>
-            <span>LinkedIn:</span> linkedin.com/in/md-nayem-khan-685865192/
+            <span>LinkedIn:</span> <a target='_blank' rel="noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/">linkedin.com/in/md-nayem-khan-685865192/</a> 
           </h6>
           <h6>
             <span>Website:</span> nayemkhan.com

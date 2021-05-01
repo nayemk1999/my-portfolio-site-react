@@ -20,28 +20,28 @@ const ProjectContainer = (props) => {
     <div className="container">
       <Carousel className="carousel p-2">
         <div>
-          <img src={img1} />
+          <img src={img1} alt='project-pic'/>
           <p className="legend">{name}</p>
         </div>
 
         <div>
-          <img src={img2} />
+          <img src={img2} alt='project-pic'/>
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img3} />
+          <img src={img3} alt='project-pic'/>
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img4} />
+          <img src={img4} alt='project-pic'/>
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img5} />
+          <img src={img5} alt='project-pic'/>
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img6} />
+          <img src={img6} alt='project-pic'/>
           <p className="legend">{name}</p>
         </div>
       </Carousel>
@@ -53,15 +53,15 @@ const ProjectContainer = (props) => {
         <p>
           <strong>Resource:</strong> {resource}
         </p>
-        <p>
+        <p >
           <strong>GitHub Link:</strong>{" "}
-          <a href={github} target="_blank">
+          <a href={github} rel="noreferrer" target="_blank">
             {github}
           </a>
         </p>
         <p>
           <strong>Website Link:</strong>{" "}
-          <a href={live} target="_blank">
+          <a href={live} rel="noreferrer" target="_blank">
             {live}
           </a>
         </p>

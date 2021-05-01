@@ -45,7 +45,6 @@ const ContactForm = () => {
   };
 
   return (
-    <div className="">
       <form onSubmit={sendEmail}>
         <input
           required
@@ -89,7 +88,7 @@ const ContactForm = () => {
           {email === false && "Please Try again.."}
         </p>
       </form>
-    </div>
+
   );
 };
 

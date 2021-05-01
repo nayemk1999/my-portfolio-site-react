@@ -1,7 +1,7 @@
 import React from "react";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import { Link } from "react-router-dom";
-import Logo from "../../../../image/logo.png";
+import Logo from "../../../../image/portfolio-logo.png";
 import ParticlesContainer from "../../../../ParticlesContainer/ParticlesContainer";
 
 const NavBar = () => {
@@ -17,7 +17,7 @@ const NavBar = () => {
       <div className='container'>
         <Navbar className='navbar-menu' expand="lg">
           <Navbar.Brand href="#home">
-            <img className="img-fluid" src={Logo} alt="" />
+            <img className="img-fluid w-75" src={Logo} alt="" />
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
