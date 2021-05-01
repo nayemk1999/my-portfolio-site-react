@@ -45,3 +45,9 @@
 .text-underline{
     text-decoration: underline;
 }
+.skillProgress h4{
+    color: tomato;
+    font-weight: bold;
+    text-transform: initial !important;
+    text-shadow: none !important;
+}
