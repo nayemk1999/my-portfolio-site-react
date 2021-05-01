@@ -1,14 +1,14 @@
 import React from "react";
 import NavBar from "../Home/Header/NavBar/NavBar";
 import "./Resume.css";
-import { projectsData } from "./ResumeData";
+import { projectsData, skillsData } from "./ResumeData";
 import ResumeProject from "./ResumeProject";
 
 const Resume = () => {
   return (
     <section>
       <NavBar></NavBar>
-      <div className='text-center'>
+      <div className="text-center">
         <a
           href="https://drive.google.com/u/0/uc?id=1ElFdYPB4y_vCnXwPLJ_DOChyPJbxAtlJ&export=download"
           download
@@ -18,7 +18,7 @@ const Resume = () => {
           </button>
         </a>
       </div>
-      <div className="container resume-container p-4">
+      <div className="container resume-container p-4 mt-1">
         <div>
           <h3>MD.NAYEM KHAN</h3>
           <h6>
@@ -47,38 +47,47 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase">skill</h1>
-
+          <h1 className=" text-uppercase text-underline">skill</h1>
           <div className="row">
-            <div className="col-md-6">
-              <ul>
-                <li>HTML, HTML-5, CSS, SCSS</li>
-                <li>JavaScript, Typescript</li>
-                <li>React, React Native</li>
-                <li>NodeJS</li>
-                <li>Bootstrap, Material UI</li>
-              </ul>
-            </div>
-            <div className="col-md-6">
-              <ul>
-                <li>MongoDB</li>
-                <li>Heroku, Netify</li>
-                <li>Firebase, GitHub</li>
-                <li>React Redux</li>
-                <li>Web API</li>
-              </ul>
+            {skillsData.map((skill) => (
+              <div className="col-md-6">
+                <ul>
+                  <li>{skill.name}</li>
+                </ul>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <div>
+          <h1 className=" text-uppercase text-underline">work experience</h1>
+          <h4>Projects</h4>
+          <div className="row p-4">
+            <div className="col">
+              {projectsData.map((project) => (
+                <ResumeProject project={project}></ResumeProject>
+              ))}
             </div>
           </div>
         </div>
 
         <div>
-          <h1 className=" text-uppercase">work experience</h1>
-          <h4>Projects</h4>
-          <div className="row">
+          <h1 className=" text-uppercase text-underline">education</h1>
+          <div className="row p-4">
+            <div className="col"></div>
+          </div>
+        </div>
+        <div>
+          <h1 className=" text-uppercase text-underline">interest</h1>
+          <div className="row p-4">
             <div className="col">
-              {projectsData.map((project) => (
-                <ResumeProject project={project}></ResumeProject>
-              ))}
+              <ul>
+                <li>
+                  I love to read non-fiction books that help me to be life long
+                  learner, I’m also a big fan of Humayun Ahmed (Bangla Novelist)
+                </li>
+                <li> A big fan of Bill Gates, Mark Zuckerberg.</li>
+              </ul>
             </div>
           </div>
         </div>
