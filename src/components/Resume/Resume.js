@@ -1,11 +1,23 @@
 import React from "react";
 import NavBar from "../Home/Header/NavBar/NavBar";
 import "./Resume.css";
+import { projectsData } from "./ResumeData";
+import ResumeProject from "./ResumeProject";
 
 const Resume = () => {
   return (
     <section>
       <NavBar></NavBar>
+      <div className='text-center'>
+        <a
+          href="https://drive.google.com/u/0/uc?id=1ElFdYPB4y_vCnXwPLJ_DOChyPJbxAtlJ&export=download"
+          download
+        >
+          <button className="btn btn-success btn-custom">
+            Download My Resume
+          </button>
+        </a>
+      </div>
       <div className="container resume-container p-4">
         <div>
           <h3>MD.NAYEM KHAN</h3>
@@ -33,8 +45,10 @@ const Resume = () => {
           </p>
           <span className="resume-divider"></span>
         </div>
+
         <div>
           <h1 className=" text-uppercase">skill</h1>
+
           <div className="row">
             <div className="col-md-6">
               <ul>
@@ -53,6 +67,18 @@ const Resume = () => {
                 <li>React Redux</li>
                 <li>Web API</li>
               </ul>
+            </div>
+          </div>
+        </div>
+
+        <div>
+          <h1 className=" text-uppercase">work experience</h1>
+          <h4>Projects</h4>
+          <div className="row">
+            <div className="col">
+              {projectsData.map((project) => (
+                <ResumeProject project={project}></ResumeProject>
+              ))}
             </div>
           </div>
         </div>
