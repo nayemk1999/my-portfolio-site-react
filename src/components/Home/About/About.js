@@ -3,9 +3,9 @@ import CountUp from 'react-countup';
 import './About.css'
 const About = () => {
     return (
-        <section className='about-container App'>
+        <section className='about text-center'>
             <div className='container'>
-                <h1 className='p-5 text-white text-center text-uppercase text-shadow'>About Me</h1>
+                <h1 className='pt-5 text-white text-center text-uppercase text-shadow'>About Me</h1>
                 <span className='divider'></span>
                 <span className='divider2'></span>
                 <div className="row align-items-center">

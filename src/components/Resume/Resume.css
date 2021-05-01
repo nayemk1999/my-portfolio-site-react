@@ -1,0 +1,12 @@
+.resume-container p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.resume-divider{
+    height: 4px;
+    width: 100%;
+    display: block;
+    /* for use on default inline elements like span */
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #000000;
+}

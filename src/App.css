@@ -1,8 +1,40 @@
-.text-error{
-    color: red
+.App {
+    text-align: center;
 }
+
 .text-shadow {
     color: white;
     text-shadow: 2px 2px 4px #000000;
     font-weight: bold;
+}
+
+.header-menu {
+    font-weight: bold !important;
+    font-size: 20px;
+    text-decoration: none !important;
+    color: black
+}
+.header-menu:hover {
+    text-decoration: none !important;
+    color: white;
+    background-color: #000000;
+    padding: 10px !important;
+    border-radius: 15px;
+}
+.btn-custom{
+    font-size: 20px;
+}
+.btn-custom:hover{
+    background-color: #000000 !important;
+    text-decoration: none !important;
+    color: rgb(255, 255, 255) !important;
+    border: none !important;
+}
+.banner-img img{
+    border:1px solid rgb(21, 255, 0);
+    border-radius: 50%;
+}
+.resume-container{
+    z-index: 5;
+    background-color: honeydew;
 }

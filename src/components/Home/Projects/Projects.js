@@ -27,7 +27,7 @@ const Projects = () => {
                     <h1 className=' text-white text-center text-uppercase text-shadow'>Projects</h1>
                     <span className='divider'></span>
                     <span className='divider2'></span>
-                    <Link to='/projects' className="btn btn-success">Go To Projects</Link>
+                    <Link to='/projects' className="btn btn-success btn-custom">Go To Projects</Link>
                 </div>
             </div>
     );

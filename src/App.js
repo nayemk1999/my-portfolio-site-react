@@ -11,6 +11,7 @@ import Blogs from './components/Blogs/Blogs';
 import Contact from './components/Contact/Contact';
 import Home from './components/Home/Home/Home';
 import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer';
+import Resume from './components/Resume/Resume';
 
 function App() {
   return (
@@ -24,6 +25,9 @@ function App() {
         </Route>
         <Route path='/projects'>
           <ProjectsContainer/>
+        </Route>
+        <Route path='/resume'>
+          <Resume/>
         </Route>
         <Route path='/contact'>
           <Contact/>

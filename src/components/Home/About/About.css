@@ -1,5 +1,6 @@
-.about-container {
+.about {
     background-image: linear-gradient(to top, #5045FE, #11BFFC);
+    z-index: 2;
 }
 
 .divider {

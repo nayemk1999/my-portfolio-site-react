@@ -6,16 +6,17 @@ const ParticlesContainer = () => {
         <div style={{
             position: "absolute",
             width: "100%",
-            height: "100%"
+            height: "100%",
+            zIndex:-1
         }}>
             <Particles
                 params={{
                     "particles": {
                         "number": {
-                            "value": 100,
+                            "value": 60,
                             "density": {
                                 "enable": true,
-                                "value_area": 800
+                                "value_area": 900
                             }
                         },
                         "color": {
@@ -28,7 +29,7 @@ const ParticlesContainer = () => {
                                 "color": "#000000"
                             },
                             "polygon": {
-                                "nb_sides": 5
+                                "nb_sides": 4
                             },
 
                         },
@@ -43,7 +44,7 @@ const ParticlesContainer = () => {
                             }
                         },
                         "size": {
-                            "value": 5,
+                            "value": 4,
                             "random": true,
                             "anim": {
                                 "enable": false,
