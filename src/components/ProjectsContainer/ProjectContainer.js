@@ -1,7 +1,7 @@
 import React from "react";
 import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
 import { Carousel } from "react-responsive-carousel";
-import './ProjectContainer.css'
+import "./ProjectContainer.css";
 const ProjectContainer = (props) => {
   const {
     name,
@@ -18,7 +18,7 @@ const ProjectContainer = (props) => {
   } = props.project;
   return (
     <div className="container">
-      <Carousel className='carousel p-2'>
+      <Carousel className="carousel p-2">
         <div>
           <img src={img1} />
           <p className="legend">{name}</p>
@@ -45,8 +45,26 @@ const ProjectContainer = (props) => {
           <p className="legend">{name}</p>
         </div>
       </Carousel>
-      <div className=' mt-2 mb-5 project-details'>
-        <h4>Name: {name}</h4>
+      <div className=" mt-2 mb-5 project-details pl-5 pt-3 pb-3">
+        <h3 className="text-underline">{name}</h3>
+        <p>
+          <strong>Feature:</strong> {feature}
+        </p>
+        <p>
+          <strong>Resource:</strong> {resource}
+        </p>
+        <p>
+          <strong>GitHub Link:</strong>{" "}
+          <a href={github} target="_blank">
+            {github}
+          </a>
+        </p>
+        <p>
+          <strong>Website Link:</strong>{" "}
+          <a href={live} target="_blank">
+            {live}
+          </a>
+        </p>
       </div>
     </div>
   );

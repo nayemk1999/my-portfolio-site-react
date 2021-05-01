@@ -1,5 +1,8 @@
 .project-details{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    box-shadow:5px 7px 20px gray;
+    border-radius:10px
+
 }
 .carousel{
     border: 1px solid gray;
