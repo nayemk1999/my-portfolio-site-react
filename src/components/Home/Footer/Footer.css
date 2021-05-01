@@ -1,5 +1,9 @@
 .footer-container {
-    background-color: black;
-    padding: 10px;
-    color: white;
+    background-color: rgb(221, 221, 221);
+    /* padding: 10px; */
+    /* color: white; */
+}
+.footer-container h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
 }

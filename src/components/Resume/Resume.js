@@ -47,7 +47,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline">skill</h1>
+          <h1 className=" text-uppercase text-underline highlight-text" >skill</h1>
           <div className="row">
             {skillsData.map((skill) => (
               <div className="col-md-6">
@@ -60,9 +60,9 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline">work experience</h1>
-          <h4>Projects</h4>
-          <div className="row p-4">
+          <h1 className=" text-uppercase text-underline highlight-text" >work experience</h1>
+          <h4 style={{fontFamily: 'Times New Roman'}} className='pl-2'>Projects:</h4>
+          <div className="row pl-4 pt-2">
             <div className="col">
               {projectsData.map((project) => (
                 <ResumeProject project={project}></ResumeProject>
@@ -72,14 +72,16 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline">education</h1>
+          <h1 className=" text-uppercase text-underline highlight-text" >education</h1>
           <div className="row p-4">
-            <div className="col"></div>
+            <div className="col">
+              
+            </div>
           </div>
         </div>
         <div>
-          <h1 className=" text-uppercase text-underline">interest</h1>
-          <div className="row p-4">
+          <h1 className=" text-uppercase text-underline highlight-text" >interest</h1>
+          <div className="row pl-4 pt-2">
             <div className="col">
               <ul>
                 <li>

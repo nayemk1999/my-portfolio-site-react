@@ -9,3 +9,8 @@
     overflow: hidden;
     background-color: #000000;
 }
+.highlight-text{
+    color:#49B2E7;
+    font-family: Georgia;
+    font-size: 25px;
+}

@@ -9,6 +9,11 @@
 .about-content{
     border-right: 2px solid black;
 }
+@media screen and (max-width: 600px){
+    .about-content{
+        border-right: none;
+    }
+}
 
 .divider {
     height: 1px;
