@@ -5,7 +5,7 @@ const HeaderMain = () => {
   return (
     <section className="container headerMain">
       <div className="row align-items-center text-center">
-        <div className="col-md-6">
+        <div className="col-md-6 col-lg col-xl col col-sm">
           <h4 className="text-center text-uppercase text-shadow">HELLO, MY NAME IS</h4>
           <Typical
             className="text-danger typical"

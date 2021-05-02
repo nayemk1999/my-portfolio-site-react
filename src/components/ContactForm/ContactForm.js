@@ -68,7 +68,7 @@ const ContactForm = () => {
         {errors.email && (
           <span className="text-error">This field is required</span>
         )}
-        <input
+        <textarea
           required
           className="form-control"
           type="text-area"

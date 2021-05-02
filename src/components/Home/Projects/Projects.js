@@ -15,24 +15,18 @@ const Projects = () => {
       }}
     >
       <ParticlesContainer />
-      <div
-        style={{
-          position: "relative",
-          width: "100%",
-          height: "100%",
-        }}
-      >
+      <div>
         <h1 className="text-center text-uppercase text-shadow">
           Projects
         </h1>
         <span className="divider"></span>
         <span className="divider2"></span>
-        <div className="row gx-5">
+        <div className="row gx-4">
           {projectsData.map(project => <Project project={project}></Project>)
           }
         </div>
 
-        <Link to="/projects" className="btn btn-success btn-custom mt-3">
+        <Link to="/projects" className="btn btn-success btn-custom mt-2">
           Go To Projects
         </Link>
       </div>
