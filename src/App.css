@@ -39,14 +39,6 @@
     border-radius: 50%;
 }
 
-.resume-container {
-    z-index: 3;
-    background-color: rgb(255, 255, 255);
-    /* background-color:red; */
-    box-shadow: 7px 7px 25px gray;
-    border-radius: 10px
-}
-
 .text-underline {
     text-decoration: underline;
 }

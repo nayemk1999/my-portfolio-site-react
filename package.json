@@ -24,6 +24,7 @@
     "react-form-hook": "0.0.1",
     "react-google-maps": "^9.4.5",
     "react-hook-form": "^7.3.4",
+    "react-loader-spinner": "^4.0.0",
     "react-particles-js": "^3.4.1",
     "react-responsive-carousel": "^3.2.18",
     "react-router-dom": "^5.2.0",

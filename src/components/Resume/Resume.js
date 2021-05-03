@@ -53,7 +53,7 @@ const Resume = () => {
             {skillsData.map((skill) => (
               <div className="col-md-12 mt-0 pt-0">
                 <ul>
-                  <li>{skill.name} {skill.data}</li>
+                  <li><p>{skill.name} {skill.data}</p></li>
                 </ul>
               </div>
             ))}
@@ -85,10 +85,11 @@ const Resume = () => {
             <div className="col">
               <ul>
                 <li>
-                  I love to read non-fiction books that help me to be life long
+                  <p>I love to read non-fiction books that help me to be life long
                   learner, I’m also a big fan of Humayun Ahmed (Bangla Novelist)
+                  </p>
                 </li>
-                <li> A big fan of Bill Gates, Mark Zuckerberg.</li>
+                <li><p>A big fan of Bill Gates, Mark Zuckerberg.</p></li>
               </ul>
             </div>
           </div>
