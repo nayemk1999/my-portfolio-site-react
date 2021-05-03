@@ -15,12 +15,12 @@ const NavBar = () => {
     >
       <ParticlesContainer />
       <div className='container'>
-        <Navbar className='navbar-menu' expand="lg">
-          <Navbar.Brand href="#home">
-            <img className="img-fluid w-75" src={Logo} alt="" />
+        <Navbar className='navbar-menu' expand="lg sm">
+          <Navbar.Brand className='m-auto text-center' href="#home">
+            <img className="img-fluid w-75 " src={Logo} alt="" />
           </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
+          <Navbar.Toggle className='ml-auto' style={{border: '1px solid black'}} aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse className='text-center' id="basic-navbar-nav">
             <Nav className="ml-auto ">
               <Nav.Link>
                 <Link className='header-menu p-1' to="/home">Home</Link>

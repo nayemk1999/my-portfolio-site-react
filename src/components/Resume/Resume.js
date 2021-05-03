@@ -21,6 +21,7 @@ const Resume = () => {
       <div className="container resume-container p-4 mt-1">
         <div>
           <h3>MD.NAYEM KHAN</h3>
+          <h6>Front-End-Developer</h6>
           <h6>
             <span>Phone:</span> +8801517124727
           </h6>
@@ -34,9 +35,9 @@ const Resume = () => {
             <span>LinkedIn:</span> <a target='_blank' rel="noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/">linkedin.com/in/md-nayem-khan-685865192/</a> 
           </h6>
           <h6>
-            <span>Website:</span> nayemkhan.com
+            <span>Website:</span> <a target='_blank' rel="noreferrer" href="https://nayemkhan.com/portfolio/">nayemkhan.com</a>
           </h6>
-          <p className="text-center pt-5">
+          <p className="text-center pt-4">
             To obtain the learning of Interactive JavaScript & react Developer
             with Programming Hero. Advanced knowledge of Object-Oriented
             JavaScript, React, modern JS libraries, NodeJS, CSS, semantic HTML,
@@ -50,9 +51,9 @@ const Resume = () => {
           <h1 className=" text-uppercase text-underline highlight-text" >skill</h1>
           <div className="row">
             {skillsData.map((skill) => (
-              <div className="col-md-6">
+              <div className="col-md-12 mt-0 pt-0">
                 <ul>
-                  <li>{skill.name}</li>
+                  <li>{skill.name} {skill.data}</li>
                 </ul>
               </div>
             ))}
@@ -60,8 +61,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline highlight-text" >work experience</h1>
-          <h4 style={{fontFamily: 'Times New Roman'}} className='pl-2'>Projects:</h4>
+          <h1 className=" text-uppercase text-underline highlight-text" >projects</h1>
           <div className="row pl-4 pt-2">
             <div className="col">
               {projectsData.map((project) => (

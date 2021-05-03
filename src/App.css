@@ -3,7 +3,7 @@
 }
 
 .text-shadow {
-    color:black;
+    color: black;
     text-shadow: 2px 2px 4px #ebebeb;
     font-weight: bold;
 }
@@ -14,6 +14,7 @@
     text-decoration: none !important;
     color: black
 }
+
 .header-menu:hover {
     text-decoration: none !important;
     color: white;
@@ -21,38 +22,44 @@
     padding: 10px !important;
     border-radius: 15px;
 }
-.btn-custom{
+
+.btn-custom {
     font-size: 20px;
 }
-.btn-custom:hover{
+
+.btn-custom:hover {
     background-color: #000000 !important;
     text-decoration: none !important;
     color: rgb(255, 255, 255) !important;
     border: none !important;
 }
-.banner-img img{
-    border:1px solid rgb(21, 255, 0);
+
+.banner-img img {
+    border: 1px solid rgb(21, 255, 0);
     border-radius: 50%;
 }
-.resume-container{
+
+.resume-container {
     z-index: 3;
     background-color: rgb(255, 255, 255);
     /* background-color:red; */
     box-shadow: 7px 7px 25px gray;
-    border-radius:10px
-    
+    border-radius: 10px
 }
-.text-underline{
+
+.text-underline {
     text-decoration: underline;
 }
-.skillProgress h4, .projectName{
+
+.skillProgress h4,
+.projectName {
     color: tomato;
     font-weight: bold;
     text-transform: initial !important;
     text-shadow: none !important;
 }
 
-.project-link a:hover{
+.project-link a:hover {
     background-color: #000000 !important;
     text-decoration: none !important;
     color: rgb(255, 255, 255) !important;

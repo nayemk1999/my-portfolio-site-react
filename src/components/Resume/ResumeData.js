@@ -46,14 +46,16 @@ export const projectsData = [
     }
 ]
 export const skillsData = [
-    {name: 'HTML, HTML-5, CSS, SCSS'},
-    {name: 'JavaScript, Typescript'},
-    {name: 'React, React Native'},
-    {name: 'NodeJS'},
-    {name: 'Bootstrap, Material UI'},
-    {name: 'MongoDB'},
-    {name: 'Heroku, Netify'},
-    {name: 'Firebase, GitHub'},
-    {name: 'React Redux'},
-    {name: 'Web API'},
+    {
+        name:'Languages:',
+        data: 'HTML, JavaScript, HTML-5, CSS, SCSS, Typescript',
+
+    },
+    {
+        name: 'Technologies:',
+        data: 'ReactJS, React Redux, Bootstrap, Material UI'},
+    {
+        name: 'Others:',
+        data: 'REST API, MongoDB, Heroku, Netlify, Firebase, GitHub, NodeJS'
+    }   
 ]
