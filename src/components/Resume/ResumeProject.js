@@ -4,19 +4,27 @@ const ResumeProject = (props) => {
   const { name, feature, resource, github, live } = props.project;
   return (
     <div>
-      <h4 className='text-underline' style={{fontFamily:'verdana', fontWeight:'bold'}} >{name}</h4>
+      <div className="row">
+        <div className="col-md-6">
+          <h6 className='text-underline highlight-text'>{name}</h6>
+        </div>
+        <div className="col-md-6 d-flex justify-content-end">
+          <div>
+            <h6>
+              <a className='text-underline highlight-text' target='_blank' rel="noreferrer" href={github}>GitHub</a>
+              <a className='p-2 text-underline highlight-text' target='_blank' rel="noreferrer" href={live}>Live</a>
+            </h6>
+          </div>
+        </div>
+      </div>
+
       <p>
         <strong>➢ Feature:</strong> {feature}
       </p>
       <p>
         <strong>➢ Technologies:</strong> {resource}
       </p>
-      <p>
-        <strong>➢ GitHub Link:</strong> <a rel="noreferrer" href={github} target='_blank'>{github}</a>
-      </p>
-      <p>
-        <strong>➢ Website Link:</strong> <a rel="noreferrer" href={live} target='_blank'>{live}</a> 
-      </p>
+     
     </div>
   );
 };

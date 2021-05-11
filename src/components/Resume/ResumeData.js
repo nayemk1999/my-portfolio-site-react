@@ -47,15 +47,24 @@ export const projectsData = [
 ]
 export const skillsData = [
     {
-        name:'Languages:',
-        data: 'HTML, JavaScript, HTML-5, CSS, SCSS, Typescript',
+        name:'Experts:',
+        data: 'JavaScript, React, HTML, CSS, ES6, React Router, React Bootstrap,Bootstrap.'
 
     },
     {
-        name: 'Technologies:',
-        data: 'ReactJS, React Redux, Bootstrap, Material UI'},
+        name: 'Comfortable:',
+        data: 'NodeJS, ExpressJS, MongoDB, Rest API, Firebase, Material UI,Google Map, Payment Gateway.'
+    },
     {
-        name: 'Others:',
-        data: 'REST API, MongoDB, Heroku, Netlify, Firebase, GitHub, NodeJS'
-    }   
+        name: 'Familiar:',
+        data: 'TypeScript, Mongoose, Next.js, Redux, React Native, SASS, Data structure and Algorithm'
+    }, 
+    { 
+        name: 'Tools:',
+        data: 'Git, Git Bash, VS Code, Chrome Tools.'
+    },
+    {
+        name: 'Deploy:',
+        data: 'Git, Heroku, Firebase, Netlify.'
+    }
 ]

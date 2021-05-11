@@ -18,42 +18,44 @@ const Resume = () => {
           </button>
         </a>
       </div>
-      <div className="container resume-container p-4 mt-1">
+      <div className="container w-75 resume-container p-4 mt-1">
+        <div className="row">
+          <div className="col-md-6 ">
+            <div className='font-weight-bold'>
+              <h3 style={{ fontWeight: 'bold' }} >MD.NAYEM KHAN</h3>
+              <h6 style={{ fontWeight: 'bold' }} >Front-End-Developer</h6>
+              <h6 style={{ fontWeight: 'bold' }} >Dhaka, Bangladesh</h6>
+            </div>
+          </div>
+          <div className="col-md-6 d-flex justify-content-end">
+            <div >
+              <h6><span style={{ fontWeight: 'bold' }}>Phone:</span> +8801517124727</h6>
+              <h6><span style={{ fontWeight: 'bold' }}>Email:</span> nayemk900@gmail.com </h6>
+              <h6 style={{ fontWeight: 'bold' }}>
+                <a target='_blank' rel="noreferrer" href="https://github.com/nayemk1999">GitHub</a>
+                <a className='p-2' target='_blank' rel="noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/">LinkedIn</a>
+                <a className='p-2' target='_blank' rel="noreferrer" href="https://portfolio-website-nayem.web.app/">Portfolio</a>
+              </h6>
+            </div>
+          </div>
+        </div>
         <div>
-          <h3>MD.NAYEM KHAN</h3>
-          <h6>Front-End-Developer</h6>
-          <h6>
-            <span>Phone:</span> +8801517124727
-          </h6>
-          <h6>
-            <span>Email:</span> nayemk900@gmail.com
-          </h6>
-          <h6>
-            <span>GitHub:</span> <a target='_blank' rel="noreferrer" href="https://github.com/nayemk1999">github.com/nayemk1999</a> 
-          </h6>
-          <h6>
-            <span>LinkedIn:</span> <a target='_blank' rel="noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/">linkedin.com/in/md-nayem-khan-685865192/</a> 
-          </h6>
-          <h6>
-            <span>Website:</span> <a target='_blank' rel="noreferrer" href="https://nayemkhan.com/portfolio/">nayemkhan.com</a>
-          </h6>
-          <p className="text-center pt-4">
-            To obtain the learning of Interactive JavaScript & react Developer
-            with Programming Hero. Advanced knowledge of Object-Oriented
-            JavaScript, React, modern JS libraries, NodeJS, CSS, semantic HTML,
-            MongoDB, ES 6, and Responsive site. I am a front-end-developer &
-            Back-end-Developer by NodeJS, React & Modern JavaScript.
+          <p className="text-center pt-2">
+            To obtain Advanced knowledge of Object-Oriented JavaScript, React, modern JS
+            libraries, NodeJS, CSS, semantic HTML, MongoDB, ES 6, and Responsive Website. I
+            am a front-end developer by JavaScript, ReactJs & Back-end-Developer by NodeJS,
+            MongoDB.
           </p>
           <span className="resume-divider"></span>
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline highlight-text" >skill</h1>
+          <h4 className=" text-uppercase text-underline" >skill</h4>
           <div className="row">
             {skillsData.map((skill) => (
               <div className="col-md-12 mt-0 pt-0">
                 <ul>
-                  <li><p>{skill.name} {skill.data}</p></li>
+                  <li ><span style={{ fontWeight: 'bold' }}>{skill.name}</span> {skill.data}</li>
                 </ul>
               </div>
             ))}
@@ -61,7 +63,7 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline highlight-text" >projects</h1>
+          <h4 className=" text-uppercase text-underline" >projects</h4>
           <div className="row pl-4 pt-2">
             <div className="col">
               {projectsData.map((project) => (
@@ -72,15 +74,15 @@ const Resume = () => {
         </div>
 
         <div>
-          <h1 className=" text-uppercase text-underline highlight-text" >education</h1>
+          <h4 className=" text-uppercase text-underline " >education</h4>
           <div className="row p-4">
             <div className="col">
-              
+
             </div>
           </div>
         </div>
         <div>
-          <h1 className=" text-uppercase text-underline highlight-text" >interest</h1>
+          <h4 className=" text-uppercase text-underline highlight-text" >interest</h4>
           <div className="row pl-4 pt-2">
             <div className="col">
               <ul>

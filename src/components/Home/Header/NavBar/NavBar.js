@@ -14,7 +14,7 @@ const NavBar = () => {
       }}
     >
       <ParticlesContainer />
-      <Navbar className='navbar-menu container' expand="lg sm">
+      <Navbar className='navbar-menu container' sticky ='top' expand="lg sm">
         <Navbar.Brand className='m-auto text-center' >
           <Link to='/'><img className="img-fluid w-75 " src={Logo} alt="" /></Link>
         </Navbar.Brand>

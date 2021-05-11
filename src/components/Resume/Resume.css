@@ -1,5 +1,5 @@
-.resume-container p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.resume-container {
+    font-family: Georgia;
 }
 
 .resume-divider {
@@ -12,9 +12,10 @@
 }
 
 .highlight-text {
-    color: #49B2E7;
+    color: black;
     font-family: Georgia;
-    font-size: 25px;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 .resume-container {
