@@ -22,7 +22,7 @@ const About = () => {
           <div className="col-md-6">
             <h1 className=" text-center text-uppercase text-shadow">Completed Projects</h1>
             <h1 className="text-danger rounded text-uppercase text-shadow ">
-              <CountUp delay={2} duration={20} end={100} />
+              <CountUp delay={2} duration={10} end={20} />
             </h1>
           </div>
         </div>

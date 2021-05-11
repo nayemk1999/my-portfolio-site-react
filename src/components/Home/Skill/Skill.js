@@ -5,13 +5,13 @@ const Skill = () => {
   const javaScript = 95;
   const react = 95;
   const HTML = 95;
-  const ReactNative = 80;
+  const ReactNative = 50;
   const NodeJS = 80;
   const Bootstrap = 96;
-  const MongoDB = 90;
-  const Heroku = 97;
-  const Firebase = 96;
-  const ReactRedux = 60;
+  const MongoDB = 80;
+  const Heroku = 80;
+  const Firebase =80;
+  const ReactRedux = 70;
 
   return (
     <div className="mt-5 container">
