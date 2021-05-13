@@ -19,7 +19,7 @@ const Blogs = () => {
             <NavBar></NavBar>
             <div className='row container m-auto'>
                 {loading ?
-                    blogs.map(blog => <Blog blog={blog} ></Blog>)
+                    blogs.map(blog => <Blog loading={loading} setLoading={setLoading} blog={blog} ></Blog>)
                     :
                     <div class="d-flex m-auto mt-5 p-5">
                         <div class="spinner-border text-danger mt-5" style={{ width: '3rem', height: '3rem' }} role="status">

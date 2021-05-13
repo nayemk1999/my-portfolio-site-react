@@ -1,14 +1,23 @@
-import React from 'react';
+import React, { useState } from 'react';
 import ReadMoreReact from 'read-more-react';
 
 const Blog = (props) => {
     const {thumbnail, title, link, pubDate } = props.blog
-    console.log(thumbnail);
+    const loading = props.loading
+    const setLoading = props.setLoading
+    setLoading(thumbnail);
     return (
         <div className="col-md-12">
             <div class="card text-center p-4 m-2 rounded">
             <div class="card-header ">
-                <img className='img-fluid' src={thumbnail} alt="Blogs Thumbnail Loading.." />
+                {
+                    loading ?  <img className='img-fluid' src={thumbnail} alt="Blogs Thumbnail Loading.." />
+                    :
+                    <div class="ml-auto p-2">
+                        <div class="spinner-border text-danger " style={{ width: '2rem', height: '2rem' }} role="status">
+                        </div>
+                    </div>
+                } 
                 <h5 class="card-title mt-2">{title}</h5>
                 <p class="card-text">Published Date: {pubDate}</p>
                 <ReadMoreReact 
