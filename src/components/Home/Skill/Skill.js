@@ -5,12 +5,12 @@ const Skill = () => {
   const javaScript = 95;
   const react = 95;
   const HTML = 95;
-  const ReactNative = 50;
+  const WordPress = 96;
   const NodeJS = 80;
   const Bootstrap = 96;
   const MongoDB = 80;
   const Heroku = 80;
-  const Firebase =80;
+  const Firebase = 80;
   const ReactRedux = 70;
 
   return (
@@ -48,15 +48,7 @@ const Skill = () => {
               now={HTML}
               label={`${HTML}%`}
             />
-            <h4>React Native</h4>
-            <ProgressBar
-              className="mb-3"
-              animated
-              striped
-              variant="danger"
-              now={ReactNative}
-              label={`${ReactNative}%`}
-            />
+            
             <h4>React Redux</h4>
             <ProgressBar
               className="mb-3"
@@ -65,6 +57,15 @@ const Skill = () => {
               variant="success"
               now={ReactRedux}
               label={`${ReactRedux}%`}
+            />
+            <h4>Word Press</h4>
+            <ProgressBar
+              className="mb-3"
+              animated
+              striped
+              variant="danger"
+              now={WordPress}
+              label={`${WordPress}%`}
             />
           </div>
         </div>
