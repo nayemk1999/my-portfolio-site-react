@@ -1,16 +1,15 @@
 import React from "react";
 import NavBar from "../Home/Header/NavBar/NavBar";
 import "./Resume.css";
-import { projectsData, skillsData } from "./ResumeData";
+import { projectsData, resumeLink, skillsData } from "./ResumeData";
 import ResumeProject from "./ResumeProject";
-
 const Resume = () => {
   return (
     <section>
       <NavBar></NavBar>
       <div className="text-center">
         <a
-          href="https://drive.google.com/u/0/uc?id=1-fw5VQF0YHQimVa5VJkKuto9tVl_fwY9&export=download"
+          href={resumeLink}
           download
         >
           <button className="btn btn-success btn-custom">

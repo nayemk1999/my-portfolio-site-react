@@ -81,3 +81,4 @@ export const skillsData = [
         data: 'GitHub, Heroku, Firebase, Netlify.'
     }
 ]
+export const resumeLink = 'https://drive.google.com/u/0/uc?id=1RK5HeyvtOdu_nXO9ZM9Nljl86O5F4iIU&export=download'

@@ -7,6 +7,8 @@ import {
   faLinkedinIn,
   faGithubAlt,
 } from "@fortawesome/free-brands-svg-icons";
+import { resumeLink } from "../../../Resume/ResumeData";
+
 const HeaderMain = () => {
   return (
     <section className="container headerMain">
@@ -36,7 +38,7 @@ const HeaderMain = () => {
             </h3>
           </div>
           <a
-            href="https://drive.google.com/u/0/uc?id=1ElFdYPB4y_vCnXwPLJ_DOChyPJbxAtlJ&export=download"
+            href={resumeLink}
             download
           >
             <button className="btn btn-success btn-custom">
