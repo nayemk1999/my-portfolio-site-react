@@ -41,10 +41,11 @@ const Resume = () => {
         </div>
         <div>
           <p className="text-center pt-2">
-            To obtain Advanced knowledge of Object-Oriented JavaScript, React, modern JS
-            libraries, NodeJS, CSS, semantic HTML, MongoDB, ES 6, and Responsive Website. I
-            am a front-end developer by JavaScript, ReactJs & Back-end-Developer by NodeJS,
-            MongoDB.
+            To obtain Advanced knowledge of Object-Oriented JavaScript, ReactJs framework,
+            Bootstrap, Material UI, CSS, semantic HTML, NodeJS, MongoDB, ES 6, Firebase,
+            Netlify, Heroku. I am a front-end developer of HTML5, CSS3, JavaScript, ReactJs,
+            Bootstrap, Material UI & Back-end-Developer by NodeJS, MongoDB, Firebase,
+            Heroku, Netlify.
           </p>
           <span className="resume-divider"></span>
         </div>

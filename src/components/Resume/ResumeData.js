@@ -1,8 +1,8 @@
 export const projectsData = [
     {
         name: 'NOBONI INTERNET SERVICE',
-        feature: 'Admin & User Panel, Add Service & Remove Service, User Review, Google Auth, Private Route, Make Admin, Order management, Order Status update, User Info Update',
-        resource: 'HTML, CSS, React, React Route, NodeJS, MongoDB, Firebase, GitHub, Bootstrap & Etc.',
+        feature: 'Admin Panel, Add Service & Remove Service, Make Admin ,Order Status update & Order Management. User Different Panel, User Buy Service, User Order Update See, User Info Update & User Review, Google Auth Verification, Private Route & Payment Method Etc.',
+        resource: 'HTML5, CSS3, Bootstrap5, ReactJS, React Route, NodeJS, MongoDB, Firebase, GitHub, Heroku Etc.',
         github: ' https://github.com/nayemk1999/noboni-internet-service',
         live: 'https://internetserviceauth.web.app/',
         img1: 'https://i.ibb.co/dt8GxcH/1.png',
@@ -13,9 +13,22 @@ export const projectsData = [
         img6: 'https://i.ibb.co/wzK38vm/6.png'
     },
     {
+        name: 'JOB MARKET WEBSITE',
+        feature: 'Employer Dashboard, Post Job & Add Employer, Applied Candidate Details & Download Resume, Employee Dashboard, Employee Create new account & Apply Posted Job. Google Auth Verification, API Data Load. Employer & Employee Different Type Dashboard Etc.',
+        resource: 'HTML, CSS3, Material UI, ReactJS, React Route, NodeJS, MongoDB, Firebase, GitHub, Heroku Etc.',
+        github: ' https://github.com/nayemk1999/jobMarket-client-site',
+        live: 'https://jobmarketsite-01.web.app/',
+        img1: 'https://i.ibb.co/njKsNqX/1.png',
+        img2: 'https://i.ibb.co/2nqZxw2/2.png',
+        img3: 'https://i.ibb.co/443QDR4/3.png',
+        img4: 'https://i.ibb.co/PDkGFR7/4.png',
+        img5: 'https://i.ibb.co/JjsgYCY/5.png',
+        img6: 'https://i.ibb.co/0GszV5w/6.png'
+    },
+    {
         name: 'NOBONIMART',
-        feature: 'User Panel, Add Product & Remove product, Product management, Google Auth, Private Route, API Data Load, User info update Etc.',
-        resource: 'HTML, CSS, React, React Route, NodeJS, MongoDB, Firebase, GitHub, Bootstrap & Etc',
+        feature: 'User & Admin Panel, Admin Can add Product, Remove product & Product management Etc. Users can buy Product, Checkout order, see all order lists. Google Oauth login system & Private Route, API Data Load from server.',
+        resource: 'HTML, CSS3, Bootstrap5, ReactJS, React Route, NodeJS, MongoDB, Firebase, GitHub, Heroku Etc.',
         github: 'https://github.com/nayemk1999/noboni-mart',
         live: ' https://nobonimart-auth.web.app/',
         img1: 'https://i.ibb.co/wJHmrfD/1.png',
@@ -26,9 +39,9 @@ export const projectsData = [
         img6: 'https://i.ibb.co/x8SR5tL/7.png'
     },
     {
-        name: 'NOBONI E-COMMCERCE WEBSITE',
-        feature: 'Admin & User Panel, Add To cart, Buy Product , Google Auth, Private Route, Order management, User Info Update, Payments Method.',
-        resource: 'HTML, CSS, React, React Route, NodeJS, MongoDB, Firebase, GitHub, Bootstrap, stripe, Local Storage & Etc.',
+        name: 'NOBONI E-COMMERCE WEBSITE',
+        feature: 'Admin & User Different Dashboard. Admin can be product add, products management & order management. Users can add to cart products, Product Remove from Cart, Check Order & Payment method, Both Google Oauth verification, Private Route Etc.',
+        resource: 'HTML5, CSS3, ReactJS, React Route, NodeJS, MongoDB, Firebase, GitHub, Bootstrap, stripe, Local Storage, Heroku & Etc.',
         github: 'https://github.com/nayemk1999/noboni-ecommerce-website',
         live: 'https://noboni-ecommerce.web.app/',
         img1: 'https://i.ibb.co/ky3TpkT/1.png',
@@ -36,8 +49,8 @@ export const projectsData = [
     },
     {
         name: 'TRAVEL RIDE',
-        feature: 'Google Auth, Google Map, Create User Account, RideShare',
-        resource: 'HTML, CSS, React, React Route, MongoDB, Firebase, Bootstrap, React Font.',
+        feature: 'A user can use this website to go anywhere. There are 3 types of vehicles on this website. The user can create a new user account or use Google, GitHub login system to find any place and also see Google maps Etc.',
+        resource: 'HTML5, CSS3, ReactJS, React Route, MongoDB, Firebase, Bootstrap & google Font Awesome, GitHub, Heroku Etc.',
         github: 'https://github.com/nayemk1999/Travel-Ride',
         live: 'https://travel-riders-59c1c.web.app/',
         img1: 'https://i.ibb.co/LP5XTcD/1.png',
@@ -48,7 +61,7 @@ export const projectsData = [
 export const skillsData = [
     {
         name:'Experts:',
-        data: 'JavaScript, React, HTML, CSS, ES6, React Router, React Bootstrap,Bootstrap.'
+        data: 'JavaScript, React, HTML5, CSS3, ES6, React Router, React Bootstrap,Bootstrap5.'
 
     },
     {
@@ -57,7 +70,7 @@ export const skillsData = [
     },
     {
         name: 'Familiar:',
-        data: 'TypeScript, Mongoose, Next.js, Redux, React Native, SASS, Data structure and Algorithm'
+        data: 'TypeScript, Mongoose, Next.js, Redux, React Native, SASS, Data structure and Algorithm.'
     }, 
     { 
         name: 'Tools:',
@@ -65,6 +78,6 @@ export const skillsData = [
     },
     {
         name: 'Deploy:',
-        data: 'Git, Heroku, Firebase, Netlify.'
+        data: 'GitHub, Heroku, Firebase, Netlify.'
     }
 ]
