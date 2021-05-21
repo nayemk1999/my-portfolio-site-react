@@ -10,7 +10,7 @@ const Resume = () => {
       <NavBar></NavBar>
       <div className="text-center">
         <a
-          href=""
+          href="https://drive.google.com/u/0/uc?id=1RK5HeyvtOdu_nXO9ZM9Nljl86O5F4iIU&export=download"
           download
         >
           <button className="btn btn-success btn-custom">
