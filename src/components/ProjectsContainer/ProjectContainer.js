@@ -20,28 +20,28 @@ const ProjectContainer = (props) => {
     <div className="container">
       <Carousel className="carousel p-2">
         <div>
-          <img src={img1} alt='project-pic'/>
+          <img src={img1} alt='project-pic' />
           <p className="legend">{name}</p>
         </div>
 
         <div>
-          <img src={img2} alt='project-pic'/>
+          <img src={img2} alt='project-pic' />
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img3} alt='project-pic'/>
+          <img src={img3} alt='project-pic' />
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img4} alt='project-pic'/>
+          <img src={img4} alt='project-pic' />
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img5} alt='project-pic'/>
+          <img src={img5} alt='project-pic' />
           <p className="legend">{name}</p>
         </div>
         <div>
-          <img src={img6} alt='project-pic'/>
+          <img src={img6} alt='project-pic' />
           <p className="legend">{name}</p>
         </div>
       </Carousel>
@@ -51,7 +51,7 @@ const ProjectContainer = (props) => {
           <strong>Feature:</strong> {feature}
         </p>
         <p>
-          <strong>Resource:</strong> {resource}
+          <strong>Technologies:</strong> {resource}
         </p>
         <p >
           <strong>GitHub Link:</strong>{" "}
