@@ -13,6 +13,19 @@ export const projectsData = [
         img6: 'https://i.ibb.co/wzK38vm/6.png'
     },
     {
+        name: 'Blogger Dairies',
+        feature: 'Admin Panel, Add Blog & Remove Blog, Make Admin . User Different Panel, User See Blog, User Info Update & User Review, Google Auth Verification, Private Route.',
+        resource: 'HTML5, CSS3, Bootstrap5, ReactJS, React Route, NodeJS, MongoDB, Firebase, GitHub, Heroku Etc.',
+        github: ' https://github.com/nayemk1999/blogger-diaries-client',
+        live: 'https://bloger-daires.web.app/',
+        img1: 'https://i.ibb.co/XJ99sWz/00.png',
+        img2: 'https://i.ibb.co/hy6CbFp/11.png',
+        img3: 'https://i.ibb.co/pdjd6Wb/22.png',
+        img4: 'https://i.ibb.co/bQ6DdcT/33.png',
+        img5: 'https://i.ibb.co/PCYcC6M/44.png',
+        img6: 'hhttps://i.ibb.co/qJxp8wf/55.png'
+    },
+    {
         name: 'JOB MARKET WEBSITE',
         feature: 'Employer Dashboard, Post Job & Add Employer, Applied Candidate Details & Download Resume, Employee Dashboard, Employee Create new account & Apply Posted Job. Google Auth Verification, API Data Load. Employer & Employee Different Type Dashboard Etc.',
         resource: 'HTML, CSS3, Material UI, ReactJS, React Route, NodeJS, MongoDB, Firebase, GitHub, Heroku Etc.',
