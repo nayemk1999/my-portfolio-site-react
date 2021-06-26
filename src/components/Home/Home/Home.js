@@ -28,7 +28,7 @@ const Home = () => {
             <GetInTouch></GetInTouch>
             <Footer></Footer>
             <Widget
-                subtitle="Please Send Your Your Text. "
+                subtitle="Please Send Your Message. "
                 handleNewUserMessage={handleNewUserMessage}
             />
         </div>
