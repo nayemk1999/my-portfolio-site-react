@@ -3,7 +3,6 @@ import Typical from "react-typical";
 import "./HeaderMain.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faFacebook,
   faLinkedinIn,
   faGithubAlt,
 } from "@fortawesome/free-brands-svg-icons";
@@ -27,12 +26,12 @@ const HeaderMain = () => {
           </p>
           <div className="social d-flex justify-content-center mt-1">
             <h3 className="pr-3">
-              <a href="https://linkedin.com/in/md-nayem-khan-685865192/" rel="noreferrer" target='_blank'>
+              <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/" rel="noreferrer" target='_blank'>
                 <FontAwesomeIcon color="#0e76a8" icon={faLinkedinIn} />
               </a>
             </h3>
             <h3 className="pr-3">
-              <a href="https://github.com/nayemk1999" rel="noreferrer" target='_blank'>
+              <a target="_blank" rel="noreferrer" href="https://github.com/nayemk1999" rel="noreferrer" target='_blank'>
                 <FontAwesomeIcon color="#000000" icon={faGithubAlt} />
               </a>
             </h3>

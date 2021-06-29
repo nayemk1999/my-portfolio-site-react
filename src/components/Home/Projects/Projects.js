@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { BrowserRouter as Link } from "react-router-dom";
 import ParticlesContainer from "../../../ParticlesContainer/ParticlesContainer";
 import { projectsData } from "../../Resume/ResumeData";
 import Project from "./Project";

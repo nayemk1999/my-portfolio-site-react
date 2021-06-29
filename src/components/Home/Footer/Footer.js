@@ -18,17 +18,17 @@ const Footer = () => {
           <div className="col-md-6 col-sm">
             <div className="social d-flex justify-content-end">
               <h3 className="pr-2">
-                <a href="https://facebook.com/nayemk1999" rel="noreferrer" target="_blank">
+                <a target="_blank" rel="noopener noreferrer" href="https://facebook.com/nayemk1999" rel="noreferrer" target="_blank">
                   <FontAwesomeIcon color="#3b5998" icon={faFacebook} />
                 </a>
               </h3>
               <h3 className="pr-2">
-                <a href="https://linkedin.com/in/md-nayem-khan-685865192/" rel="noreferrer" target='_blank'>
+                <a target="_blank" rel="noopener noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/" rel="noreferrer" target='_blank'>
                   <FontAwesomeIcon color="#0e76a8" icon={faLinkedinIn} />
                 </a>
               </h3>
               <h3 className="pr-2">
-                <a href="https://github.com/nayemk1999" rel="noreferrer" target='_blank'>
+                <a target="_blank" rel="noopener noreferrer" href="https://github.com/nayemk1999" rel="noreferrer" target='_blank'>
                   <FontAwesomeIcon color="#4078c0" icon={faGithubAlt} />
                 </a>
               </h3>

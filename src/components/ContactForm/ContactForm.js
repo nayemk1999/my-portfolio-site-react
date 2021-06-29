@@ -6,14 +6,12 @@ const ContactForm = () => {
   const [email, setEmail] = useState();
   const {
     register,
-    handleSubmit,
-    watch,
     formState: { errors },
   } = useForm();
 
-  const onSubmit = (data) => {
-    console.log(data);
-  };
+  // const onSubmit = (data) => {
+  //   console.log(data);
+  // };
   const sendEmail = (e) => {
     e.preventDefault();
     emailjs

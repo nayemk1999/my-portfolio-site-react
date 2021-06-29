@@ -31,9 +31,9 @@ const Resume = () => {
               <h6><span style={{ fontWeight: 'bold' }}>Phone:</span> +8801517124727</h6>
               <h6><span style={{ fontWeight: 'bold' }}>Email:</span> nayemk900@gmail.com </h6>
               <h6 style={{ fontWeight: 'bold' }}>
-                <a target='_blank' rel="noreferrer" href="https://github.com/nayemk1999">GitHub</a>
-                <a className='p-2' target='_blank' rel="noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/">LinkedIn</a>
-                <a className='p-2' target='_blank' rel="noreferrer" href="https://portfolio-website-nayem.web.app/">Portfolio</a>
+                <a target='_blank' rel="noopener noreferrer" href="https://github.com/nayemk1999">GitHub</a>
+                <a className='p-2' target='_blank' rel="noopener noreferrer" href="https://linkedin.com/in/md-nayem-khan-685865192/">LinkedIn</a>
+                <a className='p-2' target='_blank' rel="noopener noreferrer" href="https://portfolio-website-nayem.web.app/">Portfolio</a>
               </h6>
             </div>
           </div>
